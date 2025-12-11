@@ -67,7 +67,7 @@ export default function Menu() {
                 <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="bg-transparent border-2 border-[#7E4300] text-[#7E4300] px-10 py-4 rounded-full text-lg font-medium hover:bg-[#7E4300] hover:text-white transition-all duration-300 shadow-lg hover:shadow-[#7E4300]/30"
+                    className="bg-transparent cursor-pointer border-2 border-[#7E4300] text-[#7E4300] px-10 py-4 rounded-full text-lg font-medium hover:bg-[#7E4300] hover:text-white transition-all duration-200 shadow-lg hover:shadow-[#7E4300]/30"
                     onClick={() => {
                         window.location.href = "/menu";
                     }}

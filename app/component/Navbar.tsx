@@ -40,7 +40,7 @@ export default function Navbar(){
                 unoptimized
                 width={140}
                 height={50}
-                className={`transition-all duration-300 ${scrolled ? 'w-24' : 'w-24 md:w-32 lg:w-36'}`}
+                className={`transition-all duration-300 ${scrolled ? 'w-40' : 'w-40'}`}
                 />
             </Link>
             

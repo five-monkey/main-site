@@ -28,8 +28,8 @@ export default function Footer() {
                         </p>
                         <div className="flex gap-4">
                             <SocialIcon icon={<Instagram className="w-5 h-5" />} href="#" />
-                            <SocialIcon icon={<Facebook className="w-5 h-5" />} href="#" />
-                            <SocialIcon icon={<Twitter className="w-5 h-5" />} href="#" />
+                            {/* <SocialIcon icon={<Facebook className="w-5 h-5" />} href="#" />
+                            <SocialIcon icon={<Twitter className="w-5 h-5" />} href="#" /> */}
                         </div>
                     </div>
 
@@ -59,7 +59,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center gap-3 text-[#FFF2E6]/70 text-sm">
                                 <Mail className="w-5 h-5 text-[#E6A45C] shrink-0" />
-                                <span>hello@fivemonkey.cafe</span>
+                                <span>hello@5monkey.in</span>
                             </li>
                         </ul>
                     </div>
@@ -74,7 +74,7 @@ export default function Footer() {
                             </li>
                             <li className="flex justify-between border-b border-[#FFF2E6]/10 pb-2">
                                 <span>Sat - Sun</span>
-                                <span>11:00 AM - 11:00 PM</span>
+                                <span>11:00 AM - 11:59 PM</span>
                             </li>
                         </ul>
                     </div>
@@ -82,12 +82,12 @@ export default function Footer() {
 
                 <div className="w-full h-px bg-[#FFF2E6]/10 mb-8"></div>
 
-                <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#FFF2E6]/40">
+                <div className="flex flex-col md:flex-row justify-center items-center gap-4 text-xs text-[#FFF2E6]/40">
                     <p>© {new Date().getFullYear()} 5Monkey Bistro. All Rights Reserved.</p>
-                    <div className="flex gap-6">
+                    {/* <div className="flex gap-6">
                         <Link href="#" className="hover:text-[#E6A45C] transition-colors">Privacy Policy</Link>
                         <Link href="#" className="hover:text-[#E6A45C] transition-colors">Terms of Service</Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </footer>

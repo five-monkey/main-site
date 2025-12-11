@@ -73,8 +73,8 @@ export default function OurStory() {
                             <div className="w-full h-px bg-gradient-to-r from-transparent via-[#7E4300]/30 to-transparent my-8"></div>
 
                             <div className="grid grid-cols-2 gap-4 w-full">
-                                <Image src="/svg/cards1.svg" width={200} height={200} alt="food" className="w-full h-auto object-contain rounded-lg shadow-inner bg-white/50 p-2" />
-                                <Image src="/svg/HomeH.svg" width={200} height={200} alt="coffee" className="w-full h-auto object-contain rounded-lg shadow-inner bg-white/50 p-2" />
+                                <Image src="/svg/card2.webp" width={200} height={200} alt="food" className="w-full h-auto object-contain rounded-2xl shadow-inner bg-white/50 p-2" />
+                                <Image src="/svg/card3.webp" width={200} height={200} alt="coffee" className="w-full h-auto object-contain rounded-2xl shadow-inner bg-white/50 p-2" />
                             </div>
                         </div>
                     </div>

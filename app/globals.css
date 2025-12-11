@@ -37,3 +37,7 @@ body{
 ::-webkit-scrollbar-thumb:hover {
     background: #5e3200;
 }
+
+button{
+    cursor: pointer;
+}

@@ -58,7 +58,7 @@ export default function FoodMenu() {
                                 {Object.values(foodCategories.specialties).map((item: any, idx) => (
                                     <div key={idx} className="group">
                                         <h3 className="text-lg md:text-xl font-bold text-[#7E4300] mb-2">{item.name}</h3>
-                                        <p className="text-[#7E4300]/70 text-sm leading-relaxed font-light italic">{item.description}</p>
+                                        <p className="text-black text-sm leading-relaxed font-light italic">{item.description}</p>
                                     </div>
                                 ))}
                             </div>
@@ -107,7 +107,7 @@ const MenuSection = ({ title, items, delay }: { title: string, items: MenuItem[]
                         <h3 className="text-lg md:text-xl font-bold text-[#7E4300] mb-1">
                             {item.name} {item.addChicken && <span className="text-xs bg-[#7E4300] text-white px-1.5 py-0.5 rounded ml-2 font-normal">+ Chicken</span>}
                         </h3>
-                        {item.description && <p className="text-[#7E4300]/60 text-sm font-light italic">{item.description}</p>}
+                        {item.description && <p className="text-black text-sm font-light italic">{item.description}</p>}
                     </div>
                     <div className="flex-1 border-b-2 border-dotted border-[#7E4300]/20 mb-2 mx-2"></div>
                     <div className="text-lg md:text-xl font-bold text-[#7E4300]">

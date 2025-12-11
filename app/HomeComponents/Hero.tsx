@@ -114,11 +114,11 @@ export default function Hero() {
                         />
 
                         {/* Floating badge */}
-                        <motion.div
+                        {/* <motion.div
                             initial={{ scale: 0 }}
                             animate={{ scale: 1 }}
                             transition={{ delay: 0.8, type: "spring" }}
-                            className="absolute -bottom-6 -left-6 z-20 bg-white p-4 rounded-full shadow-xl flex items-center gap-3"
+                            className="absolute -bottom-6 -left-6 z-20 bg-white px-6 py-4 rounded-full shadow-xl flex items-center gap-3"
                         >
                             <div className="bg-[#FFF2E6] p-2 rounded-full">
                                 <span className="text-2xl">☕</span>
@@ -127,7 +127,7 @@ export default function Hero() {
                                 <p className="text-xs text-gray-500 font-bold uppercase tracking-wider">Best In Town</p>
                                 <p className="text-[#7E4300] font-bold">Coffee & Vibes</p>
                             </div>
-                        </motion.div>
+                        </motion.div> */}
                     </div>
                 </motion.div>
 
