@@ -32,42 +32,42 @@ const Menu = () => {
 
                 {/* TOC List */}
                 <div className="space-y-4">
-                    <MenuItemLink
+                    {/* <MenuItemLink
                         href="/menu/food#specialties"
                         title="Chef's Specialties"
                         subtitle="Signature Dishes & Recommendations"
                         index="01"
-                    />
+                    /> */}
                     <MenuItemLink
                         href="/menu/food"
                         title="Dining"
                         subtitle="Breakfast, Burgers, Pasta & More"
-                        index="02"
+                        index="01"
                     />
                     <MenuItemLink
                         href="/menu/drinks"
                         title="Beverages"
                         subtitle="Coffee, Tea, Mocktails & Shakes"
-                        index="03"
+                        index="02"
                     />
                     <MenuItemLink
                         href="/menu/desserts"
                         title="Desserts"
                         subtitle="Cakes, Pastries & Sweet Treats"
-                        index="04"
+                        index="03"
                     />
                     {/* Placeholder for potential future sections like 'Food' if added */}
                 </div>
 
                 {/* Footer Note */}
-                <motion.div
+                {/* <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1, duration: 1 }}
                     className="mt-20 text-center text-[#7E4300]/40 text-sm"
                 >
                     * Please inform our staff of any allergies.
-                </motion.div>
+                </motion.div> */}
             </div>
         </div>
     );

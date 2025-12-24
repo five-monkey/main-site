@@ -50,19 +50,19 @@ export default function ContactPage() {
                             <ContactItem
                                 icon={<Phone className="w-6 h-6 text-[#7E4300]" />}
                                 title="Call Us"
-                                content="+91 98765 43210"
+                                content="+91 86838 26807"
                             />
                             <ContactItem
                                 icon={<Mail className="w-6 h-6 text-[#7E4300]" />}
                                 title="Email"
-                                content="hello@fivemonkey.cafe"
+                                content="hello@5monkey.in"
                             />
                             <ContactItem
                                 icon={<Clock className="w-6 h-6 text-[#7E4300]" />}
                                 title="Opening Hours"
                                 content={
                                     <>
-                                        Mon - Fri: 11:00 AM - 11:00 PM<br />
+                                        Mon - Fri: 10:00 AM - 11:00 PM<br />
                                         Sat - Sun: 11:00 AM - 11:00 PM
                                     </>
                                 }
@@ -104,8 +104,8 @@ export default function ContactPage() {
                             <div className="space-y-2">
                                 <label className="text-sm font-medium text-white/80">Date & Time</label>
                                 <div className="grid grid-cols-2 gap-4">
-                                    <input type="date" className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-white/50 transition-colors" />
-                                    <input type="time" className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-white/50 transition-colors" />
+                                    <input type="date" title="Select date" placeholder="MM/DD/YYYY" className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-white/50 transition-colors" />
+                                    <input type="time" title="Select time" placeholder="HH:MM" className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-white/50 transition-colors" />
                                 </div>
                             </div>
 

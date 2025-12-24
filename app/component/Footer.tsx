@@ -4,7 +4,7 @@ import { Facebook, Instagram, Twitter, MapPin, Mail, Phone } from "lucide-react"
 
 export default function Footer() {
     return (
-        <footer className="w-full bg-[#2C1810] text-[#FFF2E6] pt-20 pb-10 relative overflow-hidden">
+        <footer className="w-full bg-[#2C1810] text-[#FFF2E6] py-10 relative overflow-hidden">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-5 pointer-events-none">
                 <Image src="/svg/Leaf.svg" alt="Texture" layout="fill" objectFit="cover" className="opacity-10" />
@@ -27,7 +27,7 @@ export default function Footer() {
                             Where authentic flavors meet a vibrant atmosphere. Join us for a culinary journey crafted with passion.
                         </p>
                         <div className="flex gap-4">
-                            <SocialIcon icon={<Instagram className="w-5 h-5" />} href="#" />
+                            <SocialIcon icon={<Instagram className="w-5 h-5" />} href="https://www.instagram.com/5monkeybistro_/" />
                             {/* <SocialIcon icon={<Facebook className="w-5 h-5" />} href="#" />
                             <SocialIcon icon={<Twitter className="w-5 h-5" />} href="#" /> */}
                         </div>
@@ -55,7 +55,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center gap-3 text-[#FFF2E6]/70 text-sm">
                                 <Phone className="w-5 h-5 text-[#E6A45C] shrink-0" />
-                                <span>+91 98765 43210</span>
+                                <span>+91 86838 26807</span>
                             </li>
                             <li className="flex items-center gap-3 text-[#FFF2E6]/70 text-sm">
                                 <Mail className="w-5 h-5 text-[#E6A45C] shrink-0" />
@@ -70,11 +70,11 @@ export default function Footer() {
                         <ul className="space-y-3 text-[#FFF2E6]/70 text-sm">
                             <li className="flex justify-between border-b border-[#FFF2E6]/10 pb-2">
                                 <span>Mon - Fri</span>
-                                <span>11:00 AM - 11:00 PM</span>
+                                <span>10:00 AM - 11:00 PM</span>
                             </li>
                             <li className="flex justify-between border-b border-[#FFF2E6]/10 pb-2">
                                 <span>Sat - Sun</span>
-                                <span>11:00 AM - 11:59 PM</span>
+                                <span>11:00 AM - 11:00 PM</span>
                             </li>
                         </ul>
                     </div>

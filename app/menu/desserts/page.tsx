@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowLeft } from "lucide-react";
-import menuData from "@/src/menuData.json";
+import menuData from "@/data/menuData.json";
 
 export default function Desserts() {
     const dessertsData = menuData.desserts;

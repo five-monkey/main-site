@@ -1,0 +1,404 @@
+{
+  "menu": {
+    "allDayBreakfast": {
+      "title": "All Day Breakfast",
+      "description": "Healthy and delicious meals to start your day with energy.",
+      "items": [
+        {
+          "name": "Mushroom Cheese Omelette",
+          "price": 250
+        },
+        {
+          "name": "Chicken Ham & Sausage Omelette",
+          "price": 275
+        },
+        {
+          "name": "Chicken Sausage & Spaghetti Omelette",
+          "price": 345
+        },
+        {
+          "name": "Egg Sandwich",
+          "price": 275
+        },
+        {
+          "name": "Avocado Toast",
+          "price": 325
+        },
+        {
+          "name": "Seasonal Smoothie Bowl",
+          "price": 275
+        }
+      ]
+    },
+    "soups": {
+      "title": "Soups",
+      "description": "Comforting soups prepared fresh daily.",
+      "items": [
+        {
+          "name": "Tuscan Tomato Soup",
+          "price": 225,
+          "description": "With tube pasta, white beans, big cheese crouton and olive oil",
+          "addChicken": true
+        },
+        {
+          "name": "Pestrone Soup",
+          "price": "245/295",
+          "description": "Diced vegetables cooked in basil pesto and fresh cream scented with parmesan",
+          "addChicken": true
+        },
+        {
+          "name": "Cream of Mushroom Soup",
+          "price": "225/275",
+          "description": "Thyme infused broths finished with cream",
+          "addChicken": true
+        },
+        {
+          "name": "Almond Broccoli Soup",
+          "price": 275,
+          "description": "Creamy broccoli soup enriched with almond"
+        }
+      ]
+    },
+    "salads": {
+      "title": "Salads",
+      "items": [
+        {
+          "name": "Fattoush",
+          "price": 295,
+          "description": "Tomato, cucumber, bell peppers, lettuce, feta cheese and sumac pita crisps"
+        },
+        {
+          "name": "Caesar Salad",
+          "price": "315/345",
+          "description": "Lettuce, cherry tomatoes, olives, parmesan, croutons",
+          "addChicken": true
+        },
+        {
+          "name": "Fetamelon Salad",
+          "price": 325,
+          "description": "Iceberg, watermelon, olives, feta, walnuts, pesto and bell peppers"
+        },
+        {
+          "name": "Apple Summer Slaw Salad",
+          "price": 325,
+          "description": "Apple julienne, orange chunks, lettuce, basil, olives, walnuts in balsamic dressing"
+        },
+        {
+          "name": "Quinoa Salad",
+          "price": 325,
+          "description": "Chickpeas, tomato, cucumber, bell pepper, onion and lemon dressing"
+        },
+        {
+          "name": "Chicken Pasta Salad",
+          "price": 345,
+          "description": "Lettuce, penne pasta, olives, parmesan dressed in mayonnaise"
+        }
+      ]
+    },
+    "garlicBreads": {
+      "title": "Garlic Breads",
+      "items": [
+        {
+          "name": "Classic Garlic Bread",
+          "price": 275
+        },
+        {
+          "name": "Cheesy Mushroom Garlic Bread",
+          "price": 295,
+          "addChicken": true
+        },
+        {
+          "name": "Chicken Tikka Garlic Bread",
+          "price": 325
+        }
+      ]
+    },
+    "potatoLover": {
+      "title": "Potato Lover",
+      "items": [
+        {
+          "name": "House Fries",
+          "price": 215,
+          "description": "French fries / potato wedges / peri peri fries"
+        },
+        {
+          "name": "Amsterdam Fries",
+          "price": 235,
+          "description": "V-crispers fries with house dips"
+        },
+        {
+          "name": "Amsterdam Cheesy Fries",
+          "price": 325,
+          "addChicken": true
+        }
+      ]
+    },
+    "smallBites": {
+      "title": "Small Bites",
+      "items": [
+        {
+          "name": "Fully Loaded Nachos",
+          "price": "325/345",
+          "addChicken": true
+        },
+        {
+          "name": "Tomato Basil Bruschetta",
+          "price": 295
+        },
+        {
+          "name": "Cheesy Corn Jalapeno Cigars",
+          "price": 325
+        },
+        {
+          "name": "Quesadillas",
+          "price": "345/375",
+          "addChicken": true
+        },
+        {
+          "name": "Beiruti Lebanese Platter",
+          "price": 435
+        },
+        {
+          "name": "Keema Pao",
+          "price": 425
+        },
+        {
+          "name": "Chicken Parmesan",
+          "price": 525
+        },
+        {
+          "name": "Angry Chicken Wings",
+          "price": 425
+        },
+        {
+          "name": "Fish and Chips",
+          "price": 575
+        },
+        {
+          "name": "Onion Rings",
+          "price": 245
+        }
+      ]
+    },
+    "kulchaBao": {
+      "title": "Kulcha Bao",
+      "items": [
+        {
+          "name": "Cottage Cheese Kulcha Bao",
+          "price": 455
+        },
+        {
+          "name": "Mexican Chicken Kulcha Bao",
+          "price": 515
+        }
+      ]
+    },
+    "sides": {
+      "title": "Sides",
+      "items": [
+        {
+          "name": "Grilled Veggies",
+          "price": 275
+        },
+        {
+          "name": "Nachos and Salsa",
+          "price": 275
+        },
+        {
+          "name": "Hummus and Pita",
+          "price": 275
+        },
+        {
+          "name": "Mashed Potato",
+          "price": 225
+        },
+        {
+          "name": "Sauteed Mushrooms",
+          "price": 225
+        },
+        {
+          "name": "Grilled Chicken",
+          "price": 275
+        }
+      ]
+    },
+    "burgers": {
+      "title": "Burgers",
+      "items": [
+        {
+          "name": "Paneer Streaker",
+          "price": 375
+        },
+        {
+          "name": "Acapulco Beach",
+          "price": 345
+        },
+        {
+          "name": "Chicken Streaker",
+          "price": 375
+        },
+        {
+          "name": "Lamburger-Gini",
+          "price": 425
+        },
+        {
+          "name": "Million Dollar Big Daddy Burger",
+          "price": 475
+        }
+      ]
+    },
+    "bigPlates": {
+      "title": "Big Plates",
+      "items": [
+        {
+          "name": "Mushroom Risotto",
+          "price": 395
+        },
+        {
+          "name": "Peri Peri Cottage Cheese Steak",
+          "price": 445
+        },
+        {
+          "name": "Paneer Piccata",
+          "price": 445
+        },
+        {
+          "name": "Vegetable Stroganoff",
+          "price": 395
+        },
+        {
+          "name": "Paneer Shish Tawook",
+          "price": 495
+        },
+        {
+          "name": "Pan Grilled Chicken Breast",
+          "price": 475
+        },
+        {
+          "name": "Lemon Butter Grilled Fish",
+          "price": 525
+        },
+        {
+          "name": "Chicken Shish Tawook",
+          "price": 495
+        },
+        {
+          "name": "Chicken Stroganoff",
+          "price": 425
+        },
+        {
+          "name": "Chicken Risotto",
+          "price": 445
+        }
+      ]
+    }
+  },
+  "drinks": {
+    "coffee": {
+      "title": "Coffee",
+      "items": [
+        {
+          "name": "Espresso",
+          "price": 90
+        },
+        {
+          "name": "Americano",
+          "price": 100
+        },
+        {
+          "name": "Affogato",
+          "price": 150
+        },
+        {
+          "name": "Classic Cappuccino",
+          "price": 150
+        },
+        {
+          "name": "Cortado",
+          "price": 150
+        },
+        {
+          "name": "Flat White",
+          "price": 150
+        },
+        {
+          "name": "French Press",
+          "price": 200
+        }
+      ]
+    },
+    "coldCoffee": {
+      "title": "Cold Coffee",
+      "items": [
+        {
+          "name": "Classic Cold Coffee",
+          "price": 220
+        },
+        {
+          "name": "Mocha Frappe",
+          "price": 220
+        },
+        {
+          "name": "Hazelnut Frappe",
+          "price": 220
+        },
+        {
+          "name": "Brownie Mocha Frappe",
+          "price": 240
+        }
+      ]
+    },
+    "tea": {
+      "title": "Tea",
+      "items": [
+        {
+          "name": "Black Tea",
+          "price": 90
+        },
+        {
+          "name": "Earl Grey Tea",
+          "price": 120
+        },
+        {
+          "name": "Green Tea",
+          "price": 120
+        },
+        {
+          "name": "Blue Pea Tea",
+          "price": 150
+        },
+        {
+          "name": "Hibiscus Tea",
+          "price": 150
+        }
+      ]
+    }
+  },
+  "desserts": {
+    "desserts": {
+      "title": "Desserts",
+      "items": [
+        {
+          "name": "Brownie Sizzle",
+          "price": 245
+        },
+        {
+          "name": "Banoffee Pie",
+          "price": 275
+        },
+        {
+          "name": "Chocolate Truffle",
+          "price": 275
+        },
+        {
+          "name": "Tres Leches",
+          "price": 275
+        },
+        {
+          "name": "Waffl-icious",
+          "price": 275
+        }
+      ]
+    }
+  }
+}

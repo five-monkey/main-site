@@ -121,14 +121,16 @@ export default function Gallery() {
                             <button 
                                 className="absolute -top-12 right-0 text-white hover:text-[#7E4300] transition-colors p-2 bg-white/10 rounded-full hover:bg-white"
                                 onClick={closeModal}
+                                aria-label="Close modal"
                             >
                                 <X className="w-6 h-6" />
                             </button>
                             
                             {/* Previous button */}
                             <button 
-                                className="absolute left-0 md:-left-12 text-white hover:text-[#7E4300] transition-colors p-3 bg-white/10 rounded-full hover:bg-white z-10"
+                                className="absolute left-0 md:-left-15 text-white hover:text-[#7E4300] transition-colors p-3 bg-white/10 rounded-full hover:bg-white z-10"
                                 onClick={prevImage}
+                                aria-label="Previous image"
                             >
                                 <ChevronLeft className="w-6 h-6" />
                             </button>
@@ -147,8 +149,9 @@ export default function Gallery() {
                             
                             {/* Next button */}
                             <button 
-                                className="absolute right-0 md:-right-12 text-white hover:text-[#7E4300] transition-colors p-3 bg-white/10 rounded-full hover:bg-white z-10"
+                                className="absolute right-0 md:-right-15 text-white hover:text-[#7E4300] transition-colors p-3 bg-white/10 rounded-full hover:bg-white z-10"
                                 onClick={nextImage}
+                                aria-label="Next image"
                             >
                                 <ChevronRight className="w-6 h-6" />
                             </button>

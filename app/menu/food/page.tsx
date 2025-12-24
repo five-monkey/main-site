@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowLeft } from "lucide-react";
-import menuData from "@/src/menuData.json";
+import menuData from "@/data/menuData.json";
 
 export default function FoodMenu() {
     const foodCategories = menuData.menu;
@@ -45,7 +45,7 @@ export default function FoodMenu() {
                 {/* Menu Content */}
                 <div className="space-y-16">
                     {/* Render Specialties First if exists */}
-                    {foodCategories.specialties && (
+                    {/* {foodCategories.specialties && (
                         <motion.div
                             id="specialties"
                             initial={{ opacity: 0, y: 20 }}
@@ -54,7 +54,6 @@ export default function FoodMenu() {
                         >
                             <h2 className="text-2xl md:text-3xl fontchange text-[#7E4300] mb-8 text-center bg-[#7E4300]/5 py-2 rounded-lg">Chef&apos;s Specialties</h2>
                             <div className="grid gap-8">
-                                {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                                 {Object.values(foodCategories.specialties).map((item: any, idx) => (
                                     <div key={idx} className="group">
                                         <h3 className="text-lg md:text-xl font-bold text-[#7E4300] mb-2">{item.name}</h3>
@@ -63,7 +62,7 @@ export default function FoodMenu() {
                                 ))}
                             </div>
                         </motion.div>
-                    )}
+                    )} */}
 
                     {/* Render Standard Categories */}
                     {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
