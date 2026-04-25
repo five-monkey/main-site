@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     default: "5Monkey Bistro | Best Italian & European Restaurant in Sonipat | Premium Cafe",
     template: "%s | 5Monkey Bistro Sonipat"
   },
-  description: "5Monkey Bistro - Experience authentic Italian & European cuisine in Sonipat, Haryana. Premium coffee, artisan food, cozy ambiance. 50+ dishes including breakfast, pasta, burgers, coffee & desserts. Book a table now! ☎ +91 86838 26807",
+  description: "5Monkey Bistro - Experience authentic Italian & European cuisine in Sonipat, Haryana. Premium coffee, artisan food, cozy ambiance. 50+ dishes including breakfast, pasta, burgers, coffee & desserts. Book a table now! ☎ +91 99960 21150",
   keywords: [
     "5Monkey Bistro",
     "Five Monkey Cafe",
@@ -131,8 +131,8 @@ export default function RootLayout({
           latitude: "28.9931",
           longitude: "77.0151",
         },
-        telephone: "+918683826807",
-        email: "hello@5monkey.in",
+        telephone: "+919996021150",
+        email: "5monkeybistro@gmail.com",
         openingHoursSpecification: [
           {
             "@type": "OpeningHoursSpecification",
@@ -220,9 +220,9 @@ export default function RootLayout({
         },
         contactPoint: {
           "@type": "ContactPoint",
-          telephone: "+918683826807",
+          telephone: "+919996021150",
           contactType: "customer service",
-          email: "hello@5monkey.in",
+          email: "5monkeybistro@gmail.com",
           areaServed: "IN",
           availableLanguage: ["English", "Hindi"],
         },
@@ -254,8 +254,8 @@ export default function RootLayout({
         <meta name="business:contact_data:region" content="Haryana" />
         <meta name="business:contact_data:postal_code" content="131001" />
         <meta name="business:contact_data:country_name" content="India" />
-        <meta name="business:contact_data:phone_number" content="+918683826807" />
-        <meta name="business:contact_data:email" content="hello@5monkey.in" />
+        <meta name="business:contact_data:phone_number" content="+919996021150" />
+        <meta name="business:contact_data:email" content="5monkeybistro@gmail.com" />
         
         {/* Additional SEO */}
         <meta name="rating" content="general" />

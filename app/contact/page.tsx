@@ -188,12 +188,12 @@ export default function ContactPage() {
                                 <ContactItem
                                     icon={<Phone className="w-6 h-6 text-[#7E4300]" />}
                                     title="Call Us"
-                                    content="+91 86838 26807"
+                                    content="+91 99960 21150"
                                 />
                                 <ContactItem
                                     icon={<Mail className="w-6 h-6 text-[#7E4300]" />}
                                     title="Email"
-                                    content="hello@5monkey.in"
+                                    content="5monkeybistro@gmail.com"
                                 />
                                 <ContactItem
                                     icon={<Clock className="w-6 h-6 text-[#7E4300]" />}

@@ -205,8 +205,8 @@ This website implements comprehensive SEO best practices:
 
 **5Monkey Bistro**
 - 📍 SCO-150, Sector-15, Sonipat, Haryana 131001
-- 📱 +91 86838 26807
-- 📧 hello@5monkey.in
+- 📱 +91 99960 21150
+- 📧 5monkeybistro@gmail.com
 - 🌐 [5monkey.in](https://5monkey.in)
 
 **Operating Hours:**
